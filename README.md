@@ -3,7 +3,7 @@
 <i>"Easy to integrate, simple to use"</i>
 
 <h2>Demo</h2>
-<a href="https://htmlpreview.github.io/?https://github.com/RishikeshVedpathak/TextHighlighter/blob/master/demo/index.html">TextHighlighter-Demo</a>
+<a href="https://htmlpreview.github.io/?https://github.com/RishikeshVedpathak/ng-loader/blob/master/index.html">ng-loader Demo</a>
 
 <h2>Easy to integrate</h2>
 <i>\<ng-loader theme="...">\</ng-loader></i>
