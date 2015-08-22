@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Author : Rishi Vedpathak
+Date : 22/08/2015
+The MIT License (MIT) - Copyright (c) [2015] [Rishikesh Vedpathak]
+-->
+<html>
+    <head>
+        <title>ng-loader</title>
+        <link rel="stylesheet" href="loader.css">
+
+        <script src="angular.min.js"></script>
+        <script src="loaderController.js"></script>
+    </head>
+    <body style="font-family: 'Comic Sans MS'">
+        <div ng-app="MyLoaderApp" ng-controller="loaderController">
+            <center>
+                <h1 style="color: #2fa0d1;">ng-loader</h1>
+                <h2>
+                    <span style="color: red;">&lt;</span><span style="color: blue;">ng-loader</span> <span style="color: green;">theme<span style="color: red;">=</span></span><span style="color: blueviolet;">&quot;</span>
+                    <input type="text" name="themeName" placeholder="Default/Theme1/Theme2/Theme3" ng-model="inputTheme"/>
+                    <span style="color: blueviolet;">&quot;</span><span style="color: red;">&gt;&lt;/</span><span style="color: blue;">ng-loader</span><span style="color: red;">&gt;</span>
+                    </br>
+                    <span style="color: red">|</span> </br>
+                    <span style="color: orchid">Input your theme in the above input field.</span>
+                </h2>
+            </center>
+
+            <h2><u>Custom</u></h2>
+            <ng-loader theme="{{inputTheme}}"></ng-loader>
+            <h2 style="color: #2fa0d1"><u>Default</u></h2>
+            <ng-loader theme="default"></ng-loader>
+            <h2 style="color: #f47821"><u>Theme1</u></h2>
+            <ng-loader theme="theme1"></ng-loader>
+            <h2 style="color: #107f86"><u>Theme2</u></h2>
+            <ng-loader theme="theme2"></ng-loader>
+            <h2 style="color: #2b5296"><u>Theme3</u></h2>
+            <ng-loader theme="theme3"></ng-loader>
+        </div>
+    </body>
+</html>

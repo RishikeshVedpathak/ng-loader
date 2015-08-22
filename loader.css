@@ -1,0 +1,148 @@
+/* 
+ * Author     : Rishi Vedpathak
+ * Date       : 22/08/2015
+ * The MIT License (MIT) - Copyright (c) [2015] [Rishikesh Vedpathak]
+*/
+
+@keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-250px;
+    }
+    100%{
+        margin-left:250px;
+    }
+}
+
+@-o-keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-250px;
+    }
+    100%{
+        margin-left:250px;
+    }
+}
+
+@-ms-keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-250px;
+    }
+    100%{
+        margin-left:250px;
+    }
+}
+
+@-webkit-keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-250px;
+    }
+    100%{
+        margin-left:250px;
+    }
+}
+
+@-moz-keyframes bounce_loadingProgressG{
+    0%{
+        margin-left:-250px;
+    }
+    100%{
+        margin-left:250px;
+    }
+}
+
+.default{
+    background:linear-gradient(to right, rgba(47,160,209,1), rgba(128,128,128,1));
+}
+.theme1{
+    background:linear-gradient(to right, rgba(244,120,33,1), rgba(128,128,128,1));
+}
+.theme2{
+    background:linear-gradient(to right, rgba(16,127,134,1), rgba(128,128,128,1));
+}
+.theme3{
+    background:linear-gradient(to right, rgba(43,82,150,1), rgba(128,128,128,1));
+}
+
+
+.loadingProgressG{
+    width:100px;
+    height:19px;
+
+    animation-name:bounce_loadingProgressG;
+    -o-animation-name:bounce_loadingProgressG;
+    -ms-animation-name:bounce_loadingProgressG;
+    -webkit-animation-name:bounce_loadingProgressG;
+    -moz-animation-name:bounce_loadingProgressG;
+    animation-duration:2s;
+    -o-animation-duration:2s;
+    -ms-animation-duration:2s;
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    animation-iteration-count:infinite;
+    -o-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+    -webkit-animation-iteration-count:infinite;
+    -moz-animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    -o-animation-timing-function:linear;
+    -ms-animation-timing-function:linear;
+    -webkit-animation-timing-function:linear;
+    -moz-animation-timing-function:linear;
+}
+
+.loadingContainer{
+    width:100px;
+    height:19px;
+    overflow:hidden;
+    border-radius:10px;
+    -o-border-radius:10px;
+    -ms-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+}
+
+#loadingProgressG_1{
+    margin-left: 626px;
+    -webkit-transform:rotate(60deg);
+    -o-transform:rotate(60deg);
+    -ms-transform:rotate(60deg);
+    -moz-transform:rotate(60deg);
+}
+
+.loadingProgressG_1{
+    margin-top:0;
+    margin-left:-250px;
+}
+
+
+#loadingProgressG_2{
+    -webkit-transform:rotate(-60deg);
+    -o-transform:rotate(-60deg);
+    -ms-transform:rotate(-60deg);
+    -moz-transform:rotate(-60deg);
+    margin-left: 584px;
+    margin-top: -19px;
+}
+
+.loadingProgressG_2{
+    margin-top:0;
+    margin-left:-250px;
+}
+
+
+#loadingProgressG_3{
+    -webkit-transform:rotate(-180deg);
+    -o-transform:rotate(180deg);
+    -ms-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    margin-left: 605px;
+    margin-top: 16px;
+}
+
+.loadingProgressG_3{
+    margin-top:0;
+    margin-left:-250px;
+}
+
+.loaderContainer{
+    margin-top: 5%;
+}
